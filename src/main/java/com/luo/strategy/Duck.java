@@ -28,8 +28,11 @@ public abstract class Duck {
 		this.flyingStrategy = flyingStrategy;
 	}
 	
+	/**
+	 * 飞行行为：用策略模式实现
+	 */
 	public void fly() {
-		flyingStrategy.prefly();;
+		flyingStrategy.prefly();
 	}
 	
 }

@@ -2,7 +2,7 @@ package com.luo.strategy.impl;
 
 import com.luo.strategy.FlyingStrategy;
 
-public class flyWithWin implements FlyingStrategy {
+public class FlyWithWin implements FlyingStrategy {
 
 	@Override
 	public void prefly() {
